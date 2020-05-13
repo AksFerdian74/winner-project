@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    font Sizes-->
+    <dimen name="font_normal">24sp</dimen>
+    <dimen name="font_large">32sp</dimen>
+
+<!--    typical sizes of views -->
+    <dimen name="button_width_normal">250dp</dimen>
+    <dimen name="button_height_normal">65dp</dimen>
+    <dimen name="button_margin_normal">32dp</dimen>
+    <dimen name="button_margin_large">75dp</dimen>
+
+    <!--    typical sizes of layouts-->
+    <dimen name="layout_padding">16dp</dimen>
+
+
+</resources>

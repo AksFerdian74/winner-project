@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/layout_padding"
+    android:background="@color/background_app"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guru Bahasa Daerah"
+        android:textColor="@color/text_main"
+        android:fontFamily="@font/titilliumweb_bold"
+        android:textSize="@dimen/font_large"
+        android:gravity="center"
+        android:layout_marginBottom="75dp"
+        android:layout_marginTop="32dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height_normal"
+        android:text="Dasar 1"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/titilliumweb_bold"
+        android:background="@drawable/btn_background_on"
+        android:elevation="5dp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="32dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height_normal"
+        android:text="Dasar 2"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/text_button_off"
+        android:enabled="false"
+        android:fontFamily="@font/titilliumweb_bold"
+        android:background="@drawable/btn_background_off"
+        android:elevation="5dp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="32dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height_normal"
+        android:text="Dasar 3"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/text_button_off"
+        android:enabled="false"
+        android:fontFamily="@font/titilliumweb_bold"
+        android:background="@drawable/btn_background_off"
+        android:elevation="5dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="@dimen/button_width_normal"
+        android:layout_height="@dimen/button_height_normal"
+        android:text="Selesai"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/titilliumweb_bold"
+        android:background="@drawable/btn_background_on"
+        android:elevation="5dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp" />
+
+</LinearLayout>
